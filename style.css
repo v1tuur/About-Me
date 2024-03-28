@@ -24,15 +24,33 @@ img {
     background-size: cover;
 }
 
-.pura{
-    margin-left: 3.75rem;
+@keyframes blink {
+    50% { opacity: 0; }
 }
 
 @media screen and (max-width: 768px) {
     .pura{
-        margin-left: 2rem;
+        margin-left: 1.8rem;
+    }
+
+    #cursor{
+        margin-left: .2rem;
     }
 }
+
+#cursor {
+    display: inline-block;
+    width: 2px;
+    height: 31px;
+    background-color: white;
+    animation: blink 1s infinite;
+    margin-left: .5rem;
+  }
+
+.pura{
+    margin-left: 3.75rem;
+}
+
 
 .Aqua{
     color: var(--Aqua);
