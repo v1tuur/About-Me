@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Midnight: #191970;
+    --Grey11: #1C1C1C;
+    --Aqua: #00FFFF;
+}
+
+html{
+    background-color: var(--Grey11);
+}
+
+img {
+    object-fit: fill;
+    image-rendering:pixelated;
+}
+
+.banner-image{
+    background-image: url(../images/bg-main.jpg);
+    background-size: cover;
+}
+
+.pura{
+    margin-left: 3.75rem;
+}
+
+@media screen and (max-width: 768px) {
+    .pura{
+        margin-left: 2rem;
+    }
+}
+
+.Aqua{
+    color: var(--Aqua);
+}
