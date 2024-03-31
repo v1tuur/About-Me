@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +11,21 @@
     --Midnight: #191970;
     --Grey11: #1C1C1C;
     --Aqua: #00FFFF;
+}
+
+.navbar-brand{
+    margin-left: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-style: normal;
+}
+
+.txt-main{
+    font-size: 50px;
+    font-family: "Sorts Mill Goudy", serif;
+    font-weight: 400;
+    font-style: italic;
 }
 
 html{
@@ -35,6 +53,10 @@ img {
 
     #cursor{
         margin-left: .2rem;
+    }
+
+    .txt-main{
+        font-size: 25px;
     }
 }
 

@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const text = "Olá, eu sou o Victor";
     const typingElement = document.getElementById('typing-text');
-    const cursorElement = document.getElementById('cursor'); // Adicionando referência ao elemento de cursor
+    const cursorElement = document.getElementById('cursor'); 
   
     let index = 0;
     const typingEffect = setInterval(() => {
@@ -9,10 +9,10 @@ document.addEventListener('DOMContentLoaded', function() {
       index++;
       if (index === text.length) {
         clearInterval(typingEffect);
-        typingElement.innerHTML += '<span id="cursor"></span>'; // Adicionando o cursor após o texto ser digitado
-        startCursorBlink(); // Iniciar a animação do cursor após a digitação
+        typingElement.innerHTML += '<span id="cursor"></span>'; 
+        startCursorBlink();
       }
-    }, 100);
+    }, 150);
   
     function startCursorBlink() {
       setInterval(() => {
