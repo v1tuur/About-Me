@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function startCursorBlink() {
       setInterval(() => {
         cursorElement.style.opacity = cursorElement.style.opacity === '0' ? '1' : '0'; // Alternando a opacidade do cursor
-      }, 500); // Definindo o intervalo de piscar
+      }, 100); // Definindo o intervalo de piscar
     }
   });
   

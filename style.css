@@ -43,7 +43,7 @@ img {
     width: 2px;
     height: 31px;
     background-color: white;
-    animation: blink 1s infinite;
+    animation: blink 0.9s infinite;
     margin-left: .5rem;
   }
 
